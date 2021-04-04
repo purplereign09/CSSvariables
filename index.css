@@ -1,0 +1,49 @@
+:root {
+  --red: #ff6f69;
+  --beige: #ffeead;
+  --yellow: #ffcc5c;
+}
+
+html,
+body {
+  background: var(--beige);
+  color: var(--red);
+}
+
+h1,
+p {
+  color: var(--red);
+}
+
+#navbar {
+  --nav-red: #ff6f19;
+}
+
+#navbar a {
+  color: var(--nav-red);
+}
+
+.item {
+  --item-yellow: #ffcc6c;
+  background: var(--item-yellow);
+}
+
+button {
+  background: var(--red);
+  color: var(--item-yellow);
+}
+
+@media all and (max-width: 450px) {
+  .grid {
+    --columns: 200px;
+  }
+
+  :root {
+    --beige: #fffead;
+  }
+}
+
+.featured {
+  --yellow: #ffe55b;
+  --red: #ff5564;
+}
